@@ -1,0 +1,84 @@
+/* Theme Containers */
+.light_theme,
+.dark_theme {
+  height: 50vh;
+  width: 100%;
+  text-align: center;
+  padding: 40px 20px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Light Theme */
+.light_theme {
+  background-color: #ffffff;
+  color: #000000;
+}
+
+/* Dark Theme */
+.dark_theme {
+  background-color: #000000;
+  color: #ffffff;
+}
+
+/* Theme Switch Buttons */
+.theme-container {
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.theme-container button {
+  padding: 10px 20px;
+  margin: 0 5px;
+  font-size: 14px;
+  font-weight: 500;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.theme-container button:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+/* Counter Box */
+.counter-box {
+  border: 2px solid currentColor;
+  padding: 30px 50px;
+  max-width: 400px;
+  width: 100%;
+}
+
+.counter-box h2 {
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.counter-box p {
+  font-size: 22px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+/* Action Buttons */
+.counter-box button {
+  padding: 10px 30px;
+  margin: 0 10px;
+  font-size: 14px;
+  font-weight: 600;
+  background-color: #eeeeee;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.counter-box button:hover {
+  background-color: #ddd;
+}
